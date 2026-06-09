@@ -39,11 +39,12 @@ a {
 }
 
 .header-inner {
-  height: 86px;
+  min-height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  padding: 15px 0;
 }
 
 .logo img {
@@ -420,9 +421,10 @@ section {
     width: min(100% - 28px, 1160px);
   }
 
-  .header-inner {
-    height: 76px;
-  }
+.header-inner {
+  min-height: 100px;
+  padding: 10px 0;
+}
 
   .logo img {
     width: 140px;
