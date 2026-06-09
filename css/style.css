@@ -438,9 +438,9 @@ h3 {
 ========================= */
 
 .footer {
-  background: #111111;
-  color: #ffffff;
-  padding-top: 70px;
+  background: #ffffff;
+  color: #111111;
+  border-top: 4px solid #f6d326;
 }
 
 .footer-inner {
@@ -455,9 +455,12 @@ h3 {
   margin-bottom: 20px;
 }
 
-.footer-brand p {
-  color: rgba(255,255,255,0.75);
-  max-width: 350px;
+.footer-brand p,
+.footer-contact p,
+.footer-contact a,
+.footer-links a,
+.footer-bottom p {
+  color: #444444;
 }
 
 .footer-contact h3,
@@ -485,8 +488,7 @@ h3 {
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding: 22px 0;
+  border-top: 1px solid #eeeeee;
 }
 
 .footer-bottom-inner {
