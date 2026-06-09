@@ -170,9 +170,9 @@ h3 {
 }
 
 .hero-main-image {
-  width: 100%;
-  border-radius: 28px;
-  transform: rotate(-1.5deg);
+    width: 100%;
+    border-radius: 28px;
+    object-fit: cover;
 }
 
 .hero-badge {
